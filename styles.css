@@ -168,14 +168,9 @@ body {
     text-align: justify;
 }
 
-.experiences {
-    flex: 1 1 60%;
-    margin-right: 50px;
-}
-
 .experiences__header {
     color: var(--secondary-text-color);
-    text-align: left;
+    text-align: center;
     margin-bottom: 20px;
 }
 
@@ -215,6 +210,11 @@ body {
 .experiences__company-project-responsibilities {
     color: var(--secondary-text-color);
     padding-left: 20px;
+}
+
+.experiences__text {
+    color: var(--secondary-text-color);
+    text-align: justify;
 }
 
 .additional-info {
