@@ -252,6 +252,37 @@ body {
     color: var(--secondary-text-color);
 }
 
+.additional-info__courses {
+    flex: 1 1 50%;
+    margin-right: 50px;
+}
+
+.additional-info__courses-header {
+    color: var(--secondary-text-color);
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.additional-info__courses-course {
+    margin-bottom: 15px;
+}
+
+.additional-info__courses-course-durability {
+    color: var(--durability-text-color);
+    text-align: left;
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+
+.additional-info__courses-course-speciality {
+    color: var(--primary-text-color);
+    text-align: left;
+}
+
+.additional-info__courses-course-organization-name {
+    color: var(--secondary-text-color);
+}
+
 .additional-info__languages {
     margin-bottom: 20px;
 }
