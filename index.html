@@ -5,6 +5,22 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Résumé</title>
+    <script>
+      let count_clicks = 0;
+
+      function countingClicks()
+      {
+        if (++count_clicks == 3) add_hobby();
+      };
+
+      function add_hobby()
+      {
+        let hobbies = document.getElementById("hobbies");
+        hobbies.parentElement.insertAdjacentHTML("beforeend",`<p class="additional-info__hobbies-item">
+          Some interesting fact - I started using fibonacci numbers in my passwords after
+          I read "The Da Vinci Code" by Dan Brown</p>`);
+      };
+    </script>
   </head>
   <body>
     <main>
@@ -186,7 +202,7 @@
                   </p>
                 </div>
                 <div class="additional-info__hobbies">
-                  <h3 class="additional-info__hobbies-header">Hobbies</h3>
+                  <h3 id="hobbies" class="additional-info__hobbies-header" onclick="countingClicks()">Hobbies</h3>
                   <p class="additional-info__hobbies-item">
                     Playing games (favorite - CMS games like Factorio and quest games)
                   </p>
