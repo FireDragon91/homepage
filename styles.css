@@ -263,23 +263,23 @@ body {
     margin-bottom: 20px;
 }
 
-.additional-info__courses-course {
+.additional-info__courses-item {
     margin-bottom: 15px;
 }
 
-.additional-info__courses-course-durability {
+.additional-info__courses-item-durability {
     color: var(--durability-text-color);
     text-align: left;
     margin-bottom: 10px;
     font-size: 15px;
 }
 
-.additional-info__courses-course-speciality {
+.additional-info__courses-item-speciality {
     color: var(--primary-text-color);
     text-align: left;
 }
 
-.additional-info__courses-course-organization-name {
+.additional-info__courses-item-organization-name {
     color: var(--secondary-text-color);
 }
 
